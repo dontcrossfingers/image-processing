@@ -1,0 +1,26 @@
+{
+    "name": "dontcrossfingers/media-processing",
+    "type": "library",
+    "description": "Media Processing Library",
+    "keywords": ["webp", "media processing"],
+    "homepage": "https://github.com/dontcrossfingers/media-processing",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "psr/log": "^1.0",
+        "league/pipeline": "^0.3.0",
+        "symfony/process": "^3.4"
+    },
+    "autoload": {
+        "psr-4": { "Dontcrossfingers\\MediaProcessing\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
